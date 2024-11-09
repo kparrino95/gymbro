@@ -1,14 +1,13 @@
-let users = [];
+const { db } = require('../config/database');
 
 const resolvers = {
   Query: {
-    getUsers: () => users,
     getUser: (_, { id }) => users.find(user => user.id === id),
+    getUsers: () => db.select('users')
   },
   Mutation: {
-    addUser: (_, { name, email }) => {
-      const newUser = { id: users.length + 1, name, email };
-      users.push(newUser);
+    addUser: async (_, { name, email }) => {
+      const [newUser] = await db.create("user", { name, email });
       return newUser;
     }
   }

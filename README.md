@@ -42,9 +42,13 @@ Gymbro is an experimental gym management application designed as a learning play
 ### Prerequisites
 - Docker
 - Node.js
+- Surrealist
 - GitHub or GitLab account for CI/CD configuration
 
 ### Installation
+
+### Utilities
+At http://localhost:4000/, once the backend is running, you can find Apollo Studio for GraphQL development.
 
 ## Contributing
 As Gymbro is intended for exploration and experimentation, contributions that introduce or test new technologies are highly encouraged.

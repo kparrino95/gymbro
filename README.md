@@ -1,6 +1,5 @@
-Here's a draft for your README:
-
----
+![Node.js](https://img.shields.io/badge/Node.js-23.1.0-green)
+![SurrealDB](https://img.shields.io/badge/SurrealDB-v2.0.4-blue)
 
 # Gymbro - Experimental Gym Management App
 
@@ -49,7 +48,3 @@ Gymbro is an experimental gym management application designed as a learning play
 
 ## Contributing
 As Gymbro is intended for exploration and experimentation, contributions that introduce or test new technologies are highly encouraged.
-
----
-
-This README provides an overview of the technologies you’d like to integrate and a setup guide for anyone looking to collaborate on this experimental project. Let me know if you'd like any changes!

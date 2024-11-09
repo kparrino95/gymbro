@@ -1,6 +1,6 @@
 services:
   surrealdb:
-    image: surrealdb/surrealdb:latest
+    image: surrealdb/surrealdb:v2.0.4
     ports:
       - '${SURREALDB_PORT}:8000'
     command:

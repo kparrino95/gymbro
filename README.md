@@ -1,4 +1,10 @@
-![Node.js](https://img.shields.io/badge/Node.js-23.1.0-green)
+### Backend
+![Node.js (Backend)](https://img.shields.io/badge/Node.js-23.1.0-green)
+
+### Frontend
+![Node.js (Frontend)](https://img.shields.io/badge/Node.js-22.11.0-blue)
+
+### Database
 ![SurrealDB](https://img.shields.io/badge/SurrealDB-v2.0.4-blue)
 
 # Gymbro - Experimental Gym Management App
